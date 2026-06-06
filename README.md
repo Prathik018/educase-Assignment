@@ -1,0 +1,1 @@
+Implemented the design as per the XD file, followed the centered mobile interface and implemneted navigation between pages and hosted on vercel
