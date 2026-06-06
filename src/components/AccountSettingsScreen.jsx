@@ -1,11 +1,11 @@
 const accountImage =
-  'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=500&q=80'
+  'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500&q=80'
 
 const AccountSettingsScreen = ({ onBack }) => {
   return (
-    <section className="screen-panel screen-panel--account" data-focus-primary tabIndex={-1}>
-      <div className="screen-content screen-content--account flex flex-col overflow-hidden bg-[#f6f7fb]">
-        <div className="border-b border-[#ececef] bg-[#f6f7fb] px-5 py-[0.95rem]">
+    <section className="screen-panel screen-panel--account" data-focus-primary tabIndex={1}>
+      <div className="screen-content screen-content--account flex flex-col overflow-hidden bg-[#F6F7FB]">
+        <div className="border-b border-[#ececef] bg-[#ffffff] px-5 py-[0.95rem]">
           <h2 className="text-[1.35rem] font-medium text-[#3f4044]">
             Account Settings
           </h2>
@@ -43,9 +43,14 @@ const AccountSettingsScreen = ({ onBack }) => {
             Erat, Sed Diam
           </p>
 
-          <div className="mt-2 border-b border-dashed border-[#bbbbbf]" />
 
         </div>
+                <div className="border-t border-dashed border-[#bbbbbf]" />
+
+      </div>
+
+      <div className="w-full px-0">
+        <div className="border-t border-dashed border-[#bbbbbf]" />
       </div>
     </section>
   )
